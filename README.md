@@ -36,6 +36,7 @@ In the serial connection shows up on a different port change the config in the [
 - [The Rust on ESP Book]
 - [Crate esp_idf_hal]
 - [Safe Rust wrappers for the drivers in the ESP IDF SDK]
+- [esp-hal-smartled]
 
 [ESP32-S3-DevKitC-1]: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
 [esp-idf-template]: https://github.com/esp-rs/esp-idf-template
@@ -44,4 +45,5 @@ In the serial connection shows up on a different port change the config in the [
 [Wokwi VSCode extension]: https://docs.wokwi.com/vscode/getting-started
 [The Rust on ESP Book]: https://docs.esp-rs.org/book/introduction.html
 [Crate esp_idf_hal]: https://docs.esp-rs.org/esp-idf-hal/esp_idf_hal/#
-[Safe Rust wrappers for the drivers in the ESP IDF SDK]: https://github.com/esp-rs/esp-idf-hal
+[Safe Rust wrappers for the drivers in the ESP IDF SDK]: https://github.com/esp-rs/esp-idf-hal[esp-hal-smartled]
+: https://docs.rs/crate/esp-hal-smartled/latest
