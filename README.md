@@ -33,9 +33,15 @@ In the serial connection shows up on a different port change the config in the [
 - [VSCode Dev Container]
 - [Wokwi]
 - [Wokwi VSCode extension]
+- [The Rust on ESP Book]
+- [Crate esp_idf_hal]
+- [Safe Rust wrappers for the drivers in the ESP IDF SDK]
 
 [ESP32S3 dev kit]: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
 [esp-idf-template]: https://github.com/esp-rs/esp-idf-template
 [VSCode Dev Container]: https://code.visualstudio.com/docs/devcontainers/create-dev-container
 [Wokwi]: https://wokwi.com/
 [Wokwi VSCode extension]: https://docs.wokwi.com/vscode/getting-started
+[The Rust on ESP Book]: https://docs.esp-rs.org/book/introduction.html
+[Crate esp_idf_hal]: https://docs.esp-rs.org/esp-idf-hal/esp_idf_hal/#
+[Safe Rust wrappers for the drivers in the ESP IDF SDK]: https://github.com/esp-rs/esp-idf-hal
