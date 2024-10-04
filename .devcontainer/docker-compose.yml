@@ -1,0 +1,18 @@
+version: '3'
+services:
+  esp32s3-devkit-blink:
+      build:
+        context: .
+        dockerfile: Dockerfile
+        args:
+          CONTAINER_USER: esp
+          CONTAINER_GROUP: esp
+          ESP_BOARD: esp32s3
+      volumes:
+        - ..:/home/esp/esp32s3-devkit-blink:cached
+      devices:
+        - "/dev/ttyACM0:/dev/ttyACM0"
+      ports:
+        - "8000:3333"
+      command: /bin/sh -c "while sleep 1000; do :; done"
+

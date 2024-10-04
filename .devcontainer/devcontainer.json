@@ -1,0 +1,36 @@
+{
+  "name": "esp32s3_devkit_blink",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnType": true,
+        "lldb.executable": "/usr/bin/lldb",
+        "files.watcherExclude": {
+          "**/target/**": true
+        },
+        "rust-analyzer.checkOnSave.command": "clippy",
+        "rust-analyzer.checkOnSave.allTargets": false,
+        "[rust]": {
+          "editor.defaultFormatter": "rust-lang.rust-analyzer"
+        }
+      },
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "mutantdino.resourcemonitor",
+        "yzhang.markdown-all-in-one",
+        "ms-vscode.cpptools",
+        "actboy168.tasks",
+        "Wokwi.wokwi-vscode"
+      ]
+    }
+  },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "esp32s3-devkit-blink",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/esp/esp32s3-devkit-blink,type=bind,consistency=cached",
+  "workspaceFolder": "/home/esp/esp32s3-devkit-blink"
+}
